@@ -24,7 +24,7 @@ std::string Day1::part1()
 
 std::string Day1::part2()
 {
-	std::vector<int> input = loadFileAsIntList(pathToInput1);
+	std::vector<int> input = loadFileAsIntList(pathToInput2);
 
 
 	for (int i = 0; i < input.size(); i++)

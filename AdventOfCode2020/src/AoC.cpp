@@ -16,8 +16,8 @@ static std::vector<Day*> daysList;
 
 static void AddDays()
 {
-	daysList.push_back(new Day1("./Files/Day1_1.txt", "./Files/Day1_1.txt"));
-	daysList.push_back(new Day2("./Files/Day2_1.txt", "./Files/Day1_1.txt"));
+	daysList.push_back(new Day1("./Files/Day1_1.txt"));
+	daysList.push_back(new Day2("./Files/Day2_1.txt"));
 }
 
 static void runDay(Day* day)

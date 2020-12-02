@@ -10,7 +10,13 @@
 class Day
 {
 public:
-	Day(const std::string& pathToInput1, const std::string& pathToInput2 = "")
+	Day(const std::string& pathToInput1)
+		:pathToInput1(pathToInput1), pathToInput2(pathToInput1)
+	{
+
+	}
+
+	Day(const std::string& pathToInput1, const std::string& pathToInput2 )
 		:pathToInput1(pathToInput1), pathToInput2(pathToInput2)
 	{
 

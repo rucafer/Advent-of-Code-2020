@@ -48,7 +48,7 @@ std::string Day2::part1()
 
 std::string Day2::part2()
 {
-	std::vector<std::string> input = loadFileAsStringList(pathToInput1);
+	std::vector<std::string> input = loadFileAsStringList(pathToInput2);
 
 	//Correct passwords count
 	int output = 0;
