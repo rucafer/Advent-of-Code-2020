@@ -1,2 +1,2 @@
-# upgraded-enigma
-Solutios for the 2020 Advent of Code
+# Advent of code 2020
+Solutions for the 2020 Advent of Code
