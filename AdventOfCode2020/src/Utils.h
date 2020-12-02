@@ -14,3 +14,5 @@
 std::string getDayHeader(int dayNumber);
 
 std::vector<int> loadFileAsIntList(const std::string& file);
+
+std::vector<std::string> loadFileAsStringList(const std::string& file);

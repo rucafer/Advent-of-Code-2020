@@ -53,3 +53,19 @@ std::vector<int> loadFileAsIntList(const std::string& file)
 	}
 	return result;
 }
+
+std::vector<std::string> loadFileAsStringList(const std::string& file)
+{
+	std::vector<std::string> result;
+
+	std::ifstream ifs(file);
+	if (ifs)
+	{
+		std::string line;
+		while (std::getline(ifs, line))
+		{
+			result.push_back(line);
+		}
+	}
+	return result;
+}

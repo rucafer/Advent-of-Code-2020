@@ -140,11 +140,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Solutions\Day2.cpp" />
     <ClCompile Include="src\AoC.cpp" />
     <ClCompile Include="src\Solutions\Day1.cpp" />
     <ClCompile Include="src\Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Solutions\Day2.h" />
     <ClInclude Include="src\Day.h" />
     <ClInclude Include="src\Solutions\Day1.h" />
     <ClInclude Include="src\Utils.h" />
