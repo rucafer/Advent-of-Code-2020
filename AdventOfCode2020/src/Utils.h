@@ -3,6 +3,9 @@
 #include <fstream>
 #include <vector>
 
+//GLOBAL CONSTANTS AND PROGRAM SETTINGS
+extern bool writeDebuggingInfo;
+
 #define print_yellow() std::cout << "\x1B[33m"
 #define print_green() std::cout << "\x1B[32m"
 #define print_red() std::cout << "\x1B[31m"

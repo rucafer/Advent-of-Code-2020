@@ -2,6 +2,9 @@
 
 #include <string>
 
+//GLOBAL CONSTANTS AND PROGRAM SETTINGS
+bool writeDebuggingInfo = false;
+
 std::string getDayHeader(int dayNumber)
 {
 	std::string result = "\n\x1B[33m******************************\n*********** DAY ";

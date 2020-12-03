@@ -30,8 +30,14 @@ public:
 	virtual std::string part1() { return ""; }
 	virtual std::string part2() { return ""; }
 
+	const std::string& getPart1DebuggingInfo() { return part1DebuggingInfo; }
+	const std::string& getPart2DebuggingInfo() { return part2DebuggingInfo; }
+
 protected:
 	int dayNumber = 0;
 	std::string pathToInput1;
 	std::string pathToInput2;
+
+	std::string part1DebuggingInfo = "";
+	std::string part2DebuggingInfo = "";
 };
