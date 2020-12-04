@@ -17,5 +17,7 @@ extern bool writeDebuggingInfo;
 std::string getDayHeader(int dayNumber);
 
 std::vector<int> loadFileAsIntList(const std::string& file);
-
 std::vector<std::string> loadFileAsStringList(const std::string& file);
+std::string loadFileAsString(const std::string& file);
+
+std::vector<std::string> split(const std::string& input, const std::string& token);
