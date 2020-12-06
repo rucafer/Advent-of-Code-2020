@@ -49,7 +49,7 @@ std::string Day4::part1()
 
 std::string Day4::part2()
 {
-	std::string input = loadFileAsString(pathToInput1);
+	std::string input = loadFileAsString(pathToInput2);
 	int validPassports = 0;
 
 	for (auto& passport : split(input, "\n\n"))

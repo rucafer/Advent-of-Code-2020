@@ -57,7 +57,7 @@ std::string Day5::part1()
 
 std::string Day5::part2()
 {
-	std::vector<std::string> input = loadFileAsStringList(pathToInput1);
+	std::vector<std::string> input = loadFileAsStringList(pathToInput2);
 
 	int maxId = 0;
 	std::vector<int> seatIds;

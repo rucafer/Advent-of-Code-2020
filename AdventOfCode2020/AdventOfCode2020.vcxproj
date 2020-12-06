@@ -147,6 +147,7 @@
     <ClCompile Include="src\Solutions\Day3.cpp" />
     <ClCompile Include="src\Solutions\Day4.cpp" />
     <ClCompile Include="src\Solutions\Day5.cpp" />
+    <ClCompile Include="src\Solutions\Day6.cpp" />
     <ClCompile Include="src\Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +158,7 @@
     <ClInclude Include="src\Solutions\Day3.h" />
     <ClInclude Include="src\Solutions\Day4.h" />
     <ClInclude Include="src\Solutions\Day5.h" />
+    <ClInclude Include="src\Solutions\Day6.h" />
     <ClInclude Include="src\Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
