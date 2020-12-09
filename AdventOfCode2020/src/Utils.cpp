@@ -40,6 +40,26 @@ std::vector<int> loadFileAsIntList(const std::string& file)
 	return result;
 }
 
+std::vector<long long> loadFileAsLongList(const std::string& file)
+{
+	std::vector<long long> result;
+
+	std::ifstream ifs(file);
+	if (ifs)
+	{
+		std::string line;
+		while (std::getline(ifs, line))
+		{
+			std::vector<std::string> splitResult = split(line, " ");
+			for (std::string number : splitResult)
+			{
+				result.push_back(std::stoll(number));
+			}
+		}
+	}
+	return result;
+}
+
 std::vector<std::string> loadFileAsStringList(const std::string& file)
 {
 	std::vector<std::string> result;
