@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Solutions\Day10.cpp" />
     <ClCompile Include="src\Solutions\Day2.cpp" />
     <ClCompile Include="src\AoC.cpp" />
     <ClCompile Include="src\Solutions\Day1.cpp" />
@@ -155,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Day4.h" />
+    <ClInclude Include="src\Solutions\Day10.h" />
     <ClInclude Include="src\Solutions\Day2.h" />
     <ClInclude Include="src\Day.h" />
     <ClInclude Include="src\Solutions\Day1.h" />
