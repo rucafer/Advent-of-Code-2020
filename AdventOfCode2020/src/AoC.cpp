@@ -16,6 +16,7 @@
 #include "Solutions/Day10.h"
 #include "Solutions/Day11.h"
 #include "Solutions/Day12.h"
+#include "Solutions/Day13.h"
 
 #include <vector>
 #include <chrono>
@@ -38,6 +39,7 @@ static void AddDays()
 	daysList.push_back(new Day10("./Files/Day10_1.txt"));
 	daysList.push_back(new Day11("./Files/Day11_1.txt"));
 	daysList.push_back(new Day12("./Files/Day12_1.txt"));
+	daysList.push_back(new Day13("./Files/Day13_1.txt"));
 }
 
 static void runDay(Day* day)

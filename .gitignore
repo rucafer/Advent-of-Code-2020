@@ -1,3 +1,5 @@
 .vs/
 Debug/
-AdventOfCode2020/Degub/
+AdventOfCode2020/Debug/
+x64/
+AdventOfCode2020/x64/

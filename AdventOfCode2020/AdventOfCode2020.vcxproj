@@ -132,6 +132,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -144,6 +145,7 @@
     <ClCompile Include="src\Solutions\Day10.cpp" />
     <ClCompile Include="src\Solutions\Day11.cpp" />
     <ClCompile Include="src\Solutions\Day12.cpp" />
+    <ClCompile Include="src\Solutions\Day13.cpp" />
     <ClCompile Include="src\Solutions\Day2.cpp" />
     <ClCompile Include="src\AoC.cpp" />
     <ClCompile Include="src\Solutions\Day1.cpp" />
@@ -161,6 +163,7 @@
     <ClInclude Include="src\Solutions\Day10.h" />
     <ClInclude Include="src\Solutions\Day11.h" />
     <ClInclude Include="src\Solutions\Day12.h" />
+    <ClInclude Include="src\Solutions\Day13.h" />
     <ClInclude Include="src\Solutions\Day2.h" />
     <ClInclude Include="src\Day.h" />
     <ClInclude Include="src\Solutions\Day1.h" />
