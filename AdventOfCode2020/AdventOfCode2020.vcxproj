@@ -150,6 +150,7 @@
     <ClCompile Include="src\Solutions\Day15.cpp" />
     <ClCompile Include="src\Solutions\Day16.cpp" />
     <ClCompile Include="src\Solutions\Day17.cpp" />
+    <ClCompile Include="src\Solutions\Day18.cpp" />
     <ClCompile Include="src\Solutions\Day2.cpp" />
     <ClCompile Include="src\AoC.cpp" />
     <ClCompile Include="src\Solutions\Day1.cpp" />
@@ -172,6 +173,7 @@
     <ClInclude Include="src\Solutions\Day15.h" />
     <ClInclude Include="src\Solutions\Day16.h" />
     <ClInclude Include="src\Solutions\Day17.h" />
+    <ClInclude Include="src\Solutions\Day18.h" />
     <ClInclude Include="src\Solutions\Day2.h" />
     <ClInclude Include="src\Day.h" />
     <ClInclude Include="src\Solutions\Day1.h" />
